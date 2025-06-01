@@ -11,4 +11,6 @@ private static final int[][] keyDict = {
       {KeyEvent.VK_UP, KeyEvent.VK_LEFT, KeyEvent.VK_DOWN, KeyEvent.VK_RIGHT, KeyEvent.VK_SLASH, KeyEvent.VK_SHIFT}
   };
 ```
-...meaning that the first player uses WASD for movement, Q to rotate clockwise, and E to hold. The follwoing lines are for the other 3 players.
+...meaning that the first player uses WASD for movement, Q to rotate clockwise, and E to hold. The following lines are for the other 3 players.
+
+TODO: convert to .app
