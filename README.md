@@ -1,7 +1,12 @@
-Extended APCS Project: Local Multiplayer Tetris (can be extended to any number of players assuming enough keyboard space)
+# Project: Extended APCS Project from singleplayer to local multiplayer Tetris
 
-Usage: Run Main.class to start program, and space to start the game.
+# Instructions for Download:
+Go to `<> Code` button, download files as zip and upzip the files, Run Main.class to start program and space to start the game.
 
+# Gameplay
+Use your set of keys (shown in below section) to control your own pieces. Clearing 2 lines will send 1 line to a random player (excluding yourself), 3 lines will send 2 lines, 4 lines will send 4 lines. Your die when the game can no longer spawn a piece in.
+
+# Configuration
 To Change Keybinds and other settings (such as the number of players), go to Tetris.java. The default keybinds are set as the following:
 ```java
 private static final int[][] keyDict = {
@@ -13,4 +18,6 @@ private static final int[][] keyDict = {
 ```
 ...meaning that the first player uses WASD for movement, Q to rotate clockwise, and E to hold. The following lines are for the other 3 players.
 
-TODO: convert to .app
+## TODO: 
+- convert to .app
+- use P2P or server networking
